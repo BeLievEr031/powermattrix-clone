@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import BannerImg from "./assets/banner.png"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <div className="w-12 py-[.8px] bg-neutral-400 mx-auto mt-6"></div>
         <h2 className="mt-8 text-2xl text-center font-medium">Drop us a line!</h2>
       </div>
+
+      <Footer />
     </div >
   )
 }
