@@ -35,7 +35,7 @@ const Input = ({
                 placeholder=""
                 required
                 aria-invalid={!!error}
-                className={`peer h-12 w-full rounded-sm border-2  px-3 pt-6 pb-2 text-sm placeholder-transparent
+                className={`peer h-14 w-full rounded-sm border-2  px-3 pt-6 pb-2 text-sm placeholder-transparent
           focus:outline-none transition-all duration-200
           ${error
                         ? "border-2 border-red-500"

@@ -26,7 +26,7 @@ function App() {
         <h2 className="mt-8 text-2xl text-center font-medium">Drop us a line!</h2>
 
         <div className="w-11/12 sm:w-1/2 mx-auto pt-8">
-          <form className="space-y-2">
+          <form className="space-y-5">
 
             <Input
               label="name"
@@ -58,7 +58,9 @@ function App() {
                 <span className="text-neutral-500 font-[500] text-[18px]">Sign up for our email list for updates, promotions, and more.</span>
               </div>
               <button type="submit" className="bg-black hover:bg-black/90 cursor-pointer transition-all px-6 py-4 rounded-md font-bold tracking-widest text-white uppercase mt-8">Send</button>
+              <p className="pt-6 text-sm text-neutral-500">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</p>
             </div>
+
           </form>
 
         </div>
